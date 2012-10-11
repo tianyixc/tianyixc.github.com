@@ -36,13 +36,17 @@ body {
 ul#navbar {
   width: 230px;
   margin-top: 30px;
-  line-height: 25px;
+  margin-bottom: 50px;
+  line-height: 30px;
 }
 ul#navbar li {
   font-size: 20px;
   padding: 10px 40px;
 }
 ul#navbar li:hover {
+  background-color: #543C25;
+}
+ul#navbar li.active {
   background-color: #543C25;
 }
 ul#navbar li a {

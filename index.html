@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="Stylesheet" type="text/css" href="css/smoothDivScroll.css" />
 
     <title>天艺香厂</title>
   </head>
@@ -27,21 +28,58 @@
         </div>
         <div id="info">
           <h3>企业概况</h3>
-          <p>天艺香厂成立于1995年，位于世界著名的制香基地——小冈，是一家拥有多年制香经验的优质企业。</p>
+          <p><b>天艺香厂</b>成立于1995年，位于世界著名的制香基地——小冈，是一家拥有多年制香经验的优质企业。</p>
           <p>主要经营：塔香，棒香，机香等各类寺庙用的香制品。</p>
           <p>本厂自创办以来一直本着“客户第一，诚信至上”的经营宗旨，始终把客户要求产品的质量放在首位，专研于生产一些微烟环保安全的优质香制品。经过多年的生产技术改进，我厂生产的塔香点起来烟少，烟灰低温不烫，安全系数高，非常适合寺庙等人多地方使用。近年来我厂在不断发展，凭借稳定的生产力，充足的库存，优质的服务，与内地多家寺庙建立了长期的友好合作关系。现诚寻各地有缘之客结伴，诚信互惠，携手共创美好未来。</p>
         </div>
         <div id="contact">
           <h3>联系方式</h3>
           <ul>
-            <li>联系电话：13828084551 0750-6403051(苏先生)</li>
-            <li>联系传真：0750-6405551</li>
+            <li>苏先生：13828084551 / 0750-6403051</li>
+            <li>传真：0750-6405551</li>
             <li>QQ:    1484806785</li>
             <li>电子信箱：losetemlile@hotmail.com</li>
             <li>生产厂址：广东省江门市新会区双水镇小冈梅冈工业区</li>
           </ul>
         </div>
+        <div id="makeMeScrollable">
+          <img src="images/1-1.jpg" alt="天艺香厂" />
+          <img src="images/1-2.jpg" alt="天艺香厂" />
+          <img src="images/1-3.jpg" alt="天艺香厂" />
+          <img src="images/1-5.jpg" alt="天艺香厂" />
+        </div>
       </div>
+      <div class="clear"></div>
     </div>
+    <!-- jQuery library - Please load it from Google API's -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-- jQuery UI Widget and Effects Core (custom download)
+         You can make your own at: http://jqueryui.com/download -->
+    <script src="js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+
+    <!-- Latest version (3.0.6) of jQuery Mouse Wheel by Brandon Aaron
+         You will find it here: http://brandonaaron.net/code/mousewheel/demos -->
+    <script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+    <!-- jQuery Kinectic (1.5) used for touch scrolling -->
+    <script src="js/jquery.kinetic.js" type="text/javascript"></script>
+
+    <!-- Smooth Div Scroll 1.3 minified-->
+    <script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>
+
+    <!-- If you want to look at the uncompressed version you find it at
+         js/jquery.smoothDivScroll-1.3.js -->
+
+    <!-- Plugin initialization -->
+    <script type="text/javascript">
+      // Initialize the plugin with no custom options
+      $(document).ready(function () {
+        // None of the options are set
+        $("div#makeMeScrollable").smoothDivScroll({
+          autoScrollingMode: "onStart"
+        });
+      });
+    </script>
   </body>
 </html>

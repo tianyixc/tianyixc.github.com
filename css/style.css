@@ -145,3 +145,30 @@ h3.title span {
   margin-top: 6px;
   margin-left: 6px;
 }
+
+.product02 .process-block img {
+  width: 320px;
+}
+.product02 .process-block {
+  float: left;
+  height: 365px;
+  margin: 10px 20px;
+}
+.product02 .process-block h4 {
+  text-align: center;
+}
+
+.blendent {
+  margin-left: 40px;
+}
+
+.blendent img.xiang {
+  float: left;
+  width: 450px;
+}
+
+.blendent img.colors {
+  float: left;
+  width: 200px;
+  margin-top: 58px;
+}

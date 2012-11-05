@@ -103,3 +103,42 @@ if you have links use #makeMeScrollable div.scrollableArea a and so on. */
   -o-user-select: none;
   user-select: none;
 }
+
+.taxiang h3 {
+  margin: 10px 30px;
+}
+
+.taxiang p {
+  margin: 5px 20px;
+}
+
+.taxiang-process .process-block img {
+  width: 320px;
+}
+.taxiang-process .process-block {
+  float: left;
+  height: 265px;
+  margin: 10px 20px;
+}
+.taxiang-process .process-block h4 {
+  text-align: center;
+}
+
+.taxiang-display {
+  margin-left: 80px;
+}
+.taxiang-display img {
+  height: 250px;
+}
+
+h3.title {
+  color: white;
+}
+h3.title img {
+  float: left;
+}
+h3.title span {
+  float: left;
+  margin-top: 6px;
+  margin-left: 6px;
+}

@@ -104,6 +104,9 @@ if you have links use #makeMeScrollable div.scrollableArea a and so on. */
   user-select: none;
 }
 
+.taxiang {
+  margin-bottom: 40px;
+}
 .taxiang h3 {
   margin: 10px 30px;
 }

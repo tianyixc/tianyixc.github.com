@@ -35,7 +35,7 @@ body {
 }
 ul#navbar {
   width: 230px;
-  margin-top: 30px;
+  margin-top: 45px;
   margin-bottom: 50px;
   line-height: 30px;
 }
@@ -60,9 +60,6 @@ ul#navbar li a {
   list-style: disc;
   padding: 5px 20px;
   font-family: "dfkai-sb", "�з���";
-}
-#logo {
-  padding: 10px;
 }
 #banner img, #logo img {
   width: 100%;

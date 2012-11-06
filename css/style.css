@@ -19,7 +19,8 @@ body {
   line-height: 23px;
   font-size: 17px;
   color: white;
-  line-height: 30px
+  line-height: 30px;
+  padding-top: 50px;
 }
 #content h3 {
   font-size: 20px;
@@ -28,10 +29,12 @@ body {
   line-height: 30px;
   letter-spacing: 2px;
   font-family: "dfkai-sb", "�з���";
+  padding-left: 30px;
 }
 #content p {
   font-family: "dfkai-sb", "�з���";
   text-indent: 2em;
+  font-size: 18px;
 }
 ul#navbar {
   width: 230px;
@@ -181,7 +184,7 @@ h3.title span {
 .product03 .process-block {
   float: left;
   height: 230px;
-  margin: 5px 20px;
+  margin: 10px 20px;
 }
 .product03 .process-block h4 {
   text-align: center;
@@ -190,6 +193,13 @@ h3.title span {
 }
 .product03 .process-block.baxiang {
   height: 100%;
+  width: 320px;
+}
+
+.product03 .process-block.baxiang img {
+  height: 100%;
+  width: 200px;
+  margin-left: 65px;
 }
 
 .products .process-block img {
@@ -212,4 +222,12 @@ h3.title span {
 
 .description {
   margin: 0 15px;
+}
+
+.taxiang-process {
+  margin-top: 30px;
+}
+
+.product-display {
+  margin-top: 30px;
 }

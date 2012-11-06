@@ -20,7 +20,6 @@ body {
   font-size: 17px;
   color: white;
   line-height: 30px;
-  padding-top: 50px;
 }
 #content h3 {
   font-size: 20px;
@@ -137,8 +136,12 @@ if you have links use #makeMeScrollable div.scrollableArea a and so on. */
   height: 250px;
 }
 
+h3.title.home {
+  padding-top: 10px;
+}
 h3.title {
   color: white;
+  padding-top: 50px;
 }
 h3.title img {
   float: left;
@@ -191,17 +194,10 @@ h3.title span {
   color: #FFB;
   font-size: 20px;
 }
-.product03 .process-block.baxiang {
-  height: 100%;
-  width: 320px;
+.product03 #makeMeScrollable {
+  width: 90%;
+  margin-left: 28px;
 }
-
-.product03 .process-block.baxiang img {
-  height: 100%;
-  width: 200px;
-  margin-left: 65px;
-}
-
 .products .process-block img {
   width: 320px;
 }

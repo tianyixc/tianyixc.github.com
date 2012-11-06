@@ -156,6 +156,8 @@ h3.title span {
 }
 .product02 .process-block h4 {
   text-align: center;
+  color: #FFB;
+  font-size: 20px;
 }
 
 .blendent {
@@ -171,4 +173,21 @@ h3.title span {
   float: left;
   width: 200px;
   margin-top: 58px;
+}
+
+.product03 .process-block img {
+  width: 320px;
+}
+.product03 .process-block {
+  float: left;
+  height: 230px;
+  margin: 5px 20px;
+}
+.product03 .process-block h4 {
+  text-align: center;
+  color: #FFB;
+  font-size: 20px;
+}
+.product03 .process-block.baxiang {
+  height: 100%;
 }

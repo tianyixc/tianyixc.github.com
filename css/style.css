@@ -28,7 +28,6 @@ body {
   line-height: 30px;
   letter-spacing: 2px;
   font-family: "dfkai-sb", "�з���";
-  padding-left: 30px;
 }
 #content p {
   font-family: "dfkai-sb", "�з���";
@@ -109,9 +108,6 @@ if you have links use #makeMeScrollable div.scrollableArea a and so on. */
 .taxiang {
   margin-bottom: 40px;
 }
-.taxiang h3 {
-  margin: 10px 30px;
-}
 
 .taxiang p {
   margin: 5px 20px;
@@ -127,6 +123,8 @@ if you have links use #makeMeScrollable div.scrollableArea a and so on. */
 }
 .taxiang-process .process-block h4 {
   text-align: center;
+  color: #FFB;
+  font-size: 18px;
 }
 
 .taxiang-display {
@@ -136,12 +134,10 @@ if you have links use #makeMeScrollable div.scrollableArea a and so on. */
   height: 250px;
 }
 
-h3.title.home {
-  padding-top: 10px;
-}
 h3.title {
   color: white;
   padding-top: 50px;
+  padding-left: 30px;
 }
 h3.title img {
   float: left;
@@ -150,6 +146,10 @@ h3.title span {
   float: left;
   margin-top: 6px;
   margin-left: 6px;
+}
+h3.title.home {
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .product02 .process-block img {
@@ -187,12 +187,13 @@ h3.title span {
 .product03 .process-block {
   float: left;
   height: 230px;
-  margin: 10px 20px;
+  margin: 20px;
 }
 .product03 .process-block h4 {
   text-align: center;
   color: #FFB;
   font-size: 20px;
+  margin-bottom: 15px;
 }
 .product03 #makeMeScrollable {
   width: 90%;
@@ -207,7 +208,7 @@ h3.title span {
   margin: 5px 20px;
 }
 .products .process-block.process-center {
-  margin: 5px 200px;
+  margin: 30px 200px;
   height: 213px;
 }
 .products .process-block h4 {
@@ -217,13 +218,9 @@ h3.title span {
 }
 
 .description {
-  margin: 0 15px;
+  margin: 20px;
 }
 
 .taxiang-process {
-  margin-top: 30px;
-}
-
-.product-display {
   margin-top: 30px;
 }

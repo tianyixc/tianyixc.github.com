@@ -89,6 +89,9 @@
         $("div#makeMeScrollable").smoothDivScroll({
           autoScrollingMode: "onStart"
         });
+        $('#navbar li').click(function() {
+          $(this).find('a').get(0).click();
+          })
       });
     </script>
   </body>

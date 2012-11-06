@@ -50,6 +50,9 @@ ul#navbar li:hover {
 ul#navbar li.active {
   background-color: #543C25;
 }
+ul#navbar li.active a {
+  color: #FFB;
+}
 ul#navbar li a {
   color: white;
   text-decoration: none;
